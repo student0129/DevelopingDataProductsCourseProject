@@ -14,8 +14,14 @@ shinyUI(navbarPage("Course Project",
                                     tags$li("Add confidence bounds to each model.")
                             ),
                             h4("Finaly, MPG for a hypothetical car with a chosen horsepower will be deisplayed based on selected model(s)."),
-                            h4("Source code:", a("http://", href="http://", target = "_blank")),
-                            h4("Presentation:", a("http://", href="http://", target = "_blank"))
+                            h4("Source code:", 
+                               a("https://github.com/student0129/DevelopingDataProductsCourseProject", 
+                                 href="https://github.com/student0129/DevelopingDataProductsCourseProject", 
+                                 target = "_blank")),
+                            h4("Presentation:", 
+                               a("http://rpubs.com/student0129/259285", 
+                                 href="http://rpubs.com/student0129/259285", 
+                                 target = "_blank"))
                    ),
                    tabPanel("Application",
                            fluidPage(
